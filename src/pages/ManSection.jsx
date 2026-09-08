@@ -82,7 +82,7 @@ export default function ModelingSection() {
   }, [isPaused]);
 
   return (
-    <section className="w-full py-0 select-none">
+    <section className="w-full py-1 select-none">
       {/* Scrollable Track */}
       <div
         ref={sliderRef}
