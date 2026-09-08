@@ -102,7 +102,7 @@ export default function MenSection() {
                 <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-4">
                   <a
                     href="#"
-                    className="mt-6 px-6 py-2 bg-[#ff2d55] hover:bg-[#e02447] text-white text-[10px] sm:text-[11px] font-semibold tracking-[0.2em] uppercase transition-colors"
+                    className="mt-6 px-6 py-3 bg-[#ff2d55] hover:bg-[#e02447] text-white text-[10px] sm:text-[11px] font-semibold tracking-[0.2em] uppercase transition-colors"
                   >
                     {card.buttonText}
                   </a>
