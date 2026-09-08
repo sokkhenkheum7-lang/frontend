@@ -19,7 +19,7 @@ const menCards = [
   {
     id: 3,
     type: "left-btn",
-    image: "https://i.pinimg.com/736x/e7/b8/70/e7b870f0eb3ee2d819bc6021cd8ec0fa.jpg",
+    image: "https://d2c3d01lcpw2ui.cloudfront.net/gl/data/promotion/promotionpage17887507940576726002d5f73.jpg",
     width: "w-[480px] sm:w-[580px] md:w-[680px] lg:w-[760px]",
     buttonText: "EXPLORE COLLECTION",
     tag: "MEN CLOTHING",
