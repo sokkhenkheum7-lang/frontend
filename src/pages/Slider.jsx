@@ -3,7 +3,7 @@ import React from "react";
 // Video & Image Assets
 import promoVideo from "../assets/videos/update.mp4"; 
 import promoVideo2 from "../assets/videos/boy.mp4";
-import banner3 from "../assets/images/Slide3.png";
+import banner3 from "../assets/images/Slider3.png";
 
 const collections = [
   {
