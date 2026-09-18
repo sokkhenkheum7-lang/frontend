@@ -3,8 +3,6 @@ import React from "react";
 // Video & Image Assets
 import promoVideo from "../assets/videos/update.mp4"; 
 import promoVideo2 from "../assets/videos/boy.mp4";
-import banner1 from "../assets/images/Slide1.png";
-import banner2 from "../assets/images/Slide2.png";
 import banner3 from "../assets/images/Slide3.png";
 
 const collections = [
@@ -14,28 +12,36 @@ const collections = [
     title: "THE BASE WITH RAKET",
     subtitle: "Essential silhouettes reimagined for timeless presence",
     video: promoVideo,
-    banner: banner1,
+    banner: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1600&auto=format&fit=crop&q=80",
     products: [
       {
-        
+        id: "p1",
+        name: "Ribbed Boat Neck Top",
+        price: "$28.00",
         image:
           "https://i.pinimg.com/736x/31/9d/2e/319d2eee81be493c4ed4ec7545260019.jpg",
         url: "/products/ribbed-boat-neck-top",
       },
       {
-       
+        id: "p2",
+        name: "Henley Long Sleeve",
+        price: "$34.00",
         image:
           "https://i.pinimg.com/736x/5c/39/df/5c39dfb8250632d4518da528e8982f38.jpg",
         url: "/products/henley-long-sleeve",
       },
       {
-        
+        id: "p3",
+        name: "Track Zip Jacket",
+        price: "$65.00",
         image:
           "https://i.pinimg.com/1200x/f8/58/bc/f858bc9485efa812cee07817bf48dd29.jpg",
         url: "/products/track-zip-jacket",
       },
       {
-        
+        id: "p4",
+        name: "Side Stripe Wide Pants",
+        price: "$45.00",
         image:
           "https://i.pinimg.com/736x/43/ef/09/43ef099591b35482dff2cef5cb5bc240.jpg",
         url: "/products/side-stripe-wide-pants",
@@ -48,28 +54,36 @@ const collections = [
     title: "START WITH THE BASICS",
     subtitle: "Clean lines, effortless layers, and zero overthinking",
     video: promoVideo2, 
-    banner: banner2,
+    banner: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=1600&auto=format&fit=crop&q=80",
     products: [
       {
-        
+        id: "p5",
+        name: "Seamed Oversized Hoodie - Black",
+        price: "$52.00",
         image:
           "https://i.pinimg.com/736x/54/b4/27/54b427a0126124c7e8853b5aaa7ba4ef.jpg",
         url: "/products/seamed-oversized-hoodie-black",
       },
       {
-        
+        id: "p6",
+        name: "Seamed Oversized Hoodie - Gray",
+        price: "$52.00",
         image:
           "https://i.pinimg.com/736x/1e/4f/a6/1e4fa6b474c98820e2035c79dec43ea1.jpg",
         url: "/products/seamed-oversized-hoodie-gray",
       },
       {
-        
+        id: "p7",
+        name: "Foldover Bermuda Sweatshorts - Pink",
+        price: "$30.00",
         image:
           "https://i.pinimg.com/1200x/36/d9/0e/36d90eb045b8936c84c2b96fa747f5e8.jpg",
         url: "/products/foldover-bermuda-sweatshorts-pink",
       },
       {
-        
+        id: "p8",
+        name: "Foldover Bermuda Sweatshorts - Black",
+        price: "$30.00",
         image:
           "https://i.pinimg.com/1200x/0f/05/20/0f0520870c9bacd9ce9f1bec841f54dd.jpg",
         url: "/products/foldover-bermuda-sweatshorts-black",
@@ -86,7 +100,7 @@ const collections = [
   },
 ];
 
-export default function LookbookPage() {
+export default function Slider() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
