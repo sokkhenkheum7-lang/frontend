@@ -90,7 +90,7 @@ export default function ProductGrid() {
 
   return (
     <section className="w-full py-12 px-4 sm:px-6 lg:px-8 select-none">
-      <div className="max-w-[1500px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+      <div className="max-w-[1500px] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-2 gap-y-7">
         {products.map((product) => (
           <div key={product.id} className="flex flex-col group">
             

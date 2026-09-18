@@ -13,7 +13,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#fbfbfb] text-black pt-16 pb-10 border-t border-neutral-200 select-none">
+    <footer className="w-full bg-gray-400 text-black pt-16 pb-10 border-t border-neutral-200 select-none">
       <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main 3-Column Content */}

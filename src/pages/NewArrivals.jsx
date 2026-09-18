@@ -1,7 +1,7 @@
 export default function NewArrivals() {
   return (
-    <section className="w-full bg-white text-neutral-400 py-16 sm:py-24 px-6 md:px-12 lg:px-20 select-none">
-      <div className="max-w-[1440px] mx-auto flex flex-col gap-12">
+    <section className="w-full bg-white text-neutral-400 py-16 sm:py-10 px-6 md:px-12 lg:px-10 select-none">
+      <div className="max-w-[1500px] mx-auto flex flex-col gap-12">
         <div>
             <h2 className="text-2xl lg:text-4xl font-Regular tracking-wide text-neutral-900">
               New Collection

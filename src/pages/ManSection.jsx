@@ -5,7 +5,7 @@ const cards = [
     id: 1,
     type: "minimal",
     tag: "GENZ",
-    image: "https://i.pinimg.com/736x/71/6b/57/716b572ce572f90e53fb031f76301243.jpg",
+    image: "https://i.pinimg.com/736x/79/d7/6d/79d76df5b1a9050324d54bbdb993fe0b.jpg",
     width: "w-[280px] sm:w-[320px] md:w-[360px] lg:w-[400px]",
   },
   {
@@ -40,7 +40,7 @@ const cards = [
     id: 5,
     type: "minimal",
     tag: "EDITION",
-    image: "https://i.pinimg.com/1200x/21/d7/85/21d785024cdb91d76b38af30173f1fca.jpg",
+    image: "https://i.pinimg.com/736x/3f/17/18/3f17188a7f3f5c780890cb39cce6edc2.jpg",
     width: "w-[280px] sm:w-[320px] md:w-[360px] lg:w-[400px]",
   },
   {
@@ -82,7 +82,7 @@ export default function ModelingSection() {
   }, [isPaused]);
 
   return (
-    <section className="w-full py-0 select-none">
+    <section className="w-full py-1 select-none">
       {/* Scrollable Track */}
       <div
         ref={sliderRef}
