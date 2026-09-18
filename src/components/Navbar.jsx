@@ -50,7 +50,7 @@ export default function Navbar({ activeTab, setActiveTab, isPopUpOpen = false })
         className={`w-full bg-white border-b border-neutral-200 sticky top-0 z-50 select-none ${isPopUpOpen ? "pointer-events-none opacity-50" : ""
           }`}
       >
-        <div className="w-full px-4 md:px-12 py-3 flex items-center justify-between bg-white relative z-50">
+        <div className="w-full px-5 md:px-12 py-3 flex items-center justify-between bg-white relative z-50">
           {/* Mobile Menu Icon */}
           <div className="flex items-center md:hidden">
             <button
