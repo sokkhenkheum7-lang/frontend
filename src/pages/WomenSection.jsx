@@ -76,7 +76,7 @@ export default function MenSection() {
   }, [isPaused]);
 
   return (
-    <section className="w-full select-none py-4">
+    <section className="w-full select-none py-2">
       {/* Scrollable track */}
       <div
         ref={sliderRef}

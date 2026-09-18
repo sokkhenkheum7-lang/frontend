@@ -3,11 +3,12 @@ export default function NavIcons({
   onOpenSearch,
   onOpenAccount,
   onOpenCart,
+  onOpenWishlist,
   isSearchOpen,
 }) {
   return (
     <div className="flex items-center space-x-3 sm:space-x-5 md:space-x-6 text-black">
-      {/* UK Flag Language Toggle */}
+      {/* UK Flag Language Selector */}
       <button
         type="button"
         onClick={onOpenLanguage}
@@ -59,7 +60,7 @@ export default function NavIcons({
         </svg>
       </button>
 
-      {/* Cart / Bag Button (Triggers Cart Drawer) */}
+      {/* Cart */}
       <button
         type="button"
         onClick={onOpenCart}
@@ -74,8 +75,13 @@ export default function NavIcons({
         </span>
       </button>
 
-      {/* Wishlist */}
-      <button aria-label="Wishlist" className="hidden sm:block cursor-pointer hover:opacity-70">
+      {/* Wishlist / Likes (Heart Icon) */}
+      <button
+        type="button"
+        onClick={onOpenWishlist}
+        aria-label="Wishlist"
+        className="cursor-pointer hover:opacity-70 transition-opacity relative"
+      >
         <svg className="w-5 h-5 fill-black" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
           <path
             strokeLinecap="round"
@@ -83,6 +89,9 @@ export default function NavIcons({
             d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
           />
         </svg>
+        <span className="absolute -top-1 -right-1.5 w-3.5 h-3.5 bg-black text-white text-[9px] font-bold rounded-full flex items-center justify-center">
+          2
+        </span>
       </button>
     </div>
   );
